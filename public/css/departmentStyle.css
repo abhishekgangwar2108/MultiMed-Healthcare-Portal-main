@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Josefin+Sans:wght@300&family=Jost:wght@300&family=Poppins:wght@300&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar {
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 20px;
+    
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-home {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px 30px 0px 30px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.sign-connection{
+    text-decoration: none;
+    color: white;
+    
+}
+.sign-connection:hover{
+    cursor: pointer;
+    color: rgb(135, 130, 130);
+}
+.nav-home:hover {
+    cursor: pointer;
+    color: rgb(135, 130, 130);
+}
+
+.logo {
+    background-image: url("/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 300px;
+}
+body{
+   
+   
+}
+.card{
+    width:370px;
+    background-color:white;
+    border-radius: 8px;  
+    padding: 0px 0px 34px 0px; 
+    margin: 40px;
+    box-sizing: border-box;
+    
+}
+.image img{
+    width:360px;
+    border: none;
+    border-radius: 12px;   
+}
+.image{
+    padding: 5px;
+}
+.content h2{
+    padding:13px;
+    margin-top: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.content p{
+    font-size: 12px;
+    padding: 13px;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+.capsule{
+    padding:0 28px 0 14px;
+}
+.capsule span{
+    padding:0px 9px;
+    border:1px solid gray;
+    border-radius: 18px;
+    font-size: 13px;
+    color: gray;
+    font-family: 'Rubik', sans-serif;
+
+}
+.click button{
+    color:rgb(38, 160, 226);
+    border:none;
+    border-radius: 15px;
+    background-color: rgb(176, 210, 239);
+    padding:5px 12px;
+    font-size: 14px;
+    font-weight:bold;
+    font-family: 'Rubik', sans-serif;
+
+}
+.click{
+    padding:15px;
+    text-align: center;
+}
+.click button:hover{
+    background-color: rgb(138, 188, 239);
+    color:rgb(10, 98, 161);
+}
+.box1{
+    background:rgba(104, 224, 240, 0.856);
+    
+    overflow: hidden;
+}
+.box1>img{
+     color:white;
+     width:100%;
+     height: 25rem;
+     display:flex;
+     justify-content:center;
+     opacity: 0.2;
+
+   
+}
+.categories{
+    display: flex;
+    padding: 10px; 
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+img{
+    height: 230px;
+}
+/* .dep{
+     margin-top: 350px;
+} */
+
+
+.main {
+     position: absolute;
+     top: 35%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: white;
+     font-size:3.5rem;
+     font-family: 'Poppins';
+     font-weight: 900;
+} 
+h2{
+    color:#19A7CE;
+} 
+.end{
+    background-color: rgb(212, 248, 235);
+    height: 160px;
+}
+.end>h3{
+    color: gray;
+}
+.content>h2>img{
+height: 23px;
+margin-right: 10px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+.footer{
+    background-color: #0193bce4;
+    height: 475px;
+    width: 100%;
+    border-top-left-radius: 124px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.left{
+    /* background-color: red; */
+    height: 203px;
+    width: 600px;
+    /* position: relative;
+    top: 72px;
+    left: 34px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.mid{
+    /* background-color: blue; */
+    height: 262px;
+    width: 305px;
+    /* position: relative;
+    top: -151px;
+    left: 760px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right{
+    /* background-color: yellow; */
+    height: 358px;
+    width: 330px;
+    /* position: relative;
+    top: -434px;
+    left: 1061px; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+    margin-top: 7px;
+    position: relative;
+    top: 7px;
+    left: 0px;
+    color: white;
+}
+
+
+.heading{
+    position: relative;
+    top: 0px;
+    color: white;
+}
+
+.li{
+    position: relative;
+    top: 0px;
+    margin-top: 25px;
+    color: white;
+}
+
+.foot-info{
+    color: white;
+}
+.dep{
+    color: white;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin:20px auto;
+    
+  }
+  .foot-line{
+    background-color: #0193bce4;
+    width: 100%;
+    height: 10px;
+  }
+.copyright{
+    text-align: center;
+    background-color: #0193bce4;
+    color: white;
+}
+    
+
+
+    
